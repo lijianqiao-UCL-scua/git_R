@@ -24,7 +24,7 @@ Ausoutline <- st_read(here("parc3_data", "gadm36_AUS.gpkg"),
 
 
 ```{r}
-
+plot(Ausoutline)
 ```
 
 
