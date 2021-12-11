@@ -1,0 +1,30 @@
+---
+title: "CASA0005exam"
+author: "Lambridge"
+date: "2021/12/11"
+output: html_document
+---
+
+```{r}
+library(raster)
+library(here)
+jan <- raster(here("parc3_data","wc2.1_5m_tavg_01.tif"))
+plot(jan)
+```
+
+
+
+```{r}
+library(sf)
+# AUSgeo
+Ausoutline <- st_read(here("parc3_data", "gadm36_AUS.gpkg"),
+                      layer = 'gadm36_AUS_0')
+#new code chunk
+```
+
+
+```{r}
+
+```
+
+
